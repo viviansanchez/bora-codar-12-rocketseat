@@ -22,7 +22,9 @@ function dragend () {
   this.classList.remove('is-dragging')
 }
 
-function dragover () {
+function dragover (e) {
+  e.preventDefault()
+
   const cardBeingDragged = document.querySelector('.is-dragging')
 
   this.classList.add('over')
@@ -34,6 +36,8 @@ function dragleave () {
   this.classList.remove('over')
 }
 
-function drop () {
+function drop (e) {
+  e.preventDefault()
+
   this.classList.remove('over')
 }
