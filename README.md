@@ -34,5 +34,4 @@ Você pode visualizar o layout de inspiração do projeto através [DESSE LINK](
 
 ## ⚙️ Melhorias
 - Desenvolvimento da versão mobile
-<br>
   - Meu maior foco com este projeto foi aprender a utilizar a API do HTML de Drag and Drop, então foi desenvolvido apenas na versão Desktop, de acordo com o layout do Figma. No entanto, gostaria de desenvolver uma versão mobile no futuro.
