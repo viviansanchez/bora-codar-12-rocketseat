@@ -183,6 +183,12 @@ section.kanban h2 {
   gap: 2.4rem;
 }
 
+.dropzone {
+  min-height: 40rem;
+  /* min-width: 34rem; */
+  border-radius: 0.8rem;
+}
+
 .card {
   padding: 2.4rem;
   background-color: #FFFFFF;
@@ -219,4 +225,21 @@ section.kanban h2 {
   background-color: #E2D6FF;
   border-radius: 0.8rem;
   padding: 0.4rem 0.8rem;
+}
+
+.highlight {
+  background-color: rgba(124, 58, 237, 0.6);
+}
+
+.card, .dropzone {
+  transition: all 0.4s;
+}
+
+.is-dragging {
+  cursor: move;
+  opacity: 0.2;
+}
+
+.over {
+  background-color: rgb(119, 252, 98);
 }
